@@ -68,6 +68,10 @@
     desc: web alb accepting connections from public
     source: public
     port: 80
+  - name: web_alb_public_https
+    desc: web alb accepting connections from public
+    source: public
+    port: 443
   bastion:
   - name: bastion_public
     desc: bastion accepting connections from public

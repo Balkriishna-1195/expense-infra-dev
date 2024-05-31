@@ -11,10 +11,14 @@ variable "common_tags" {
     Project = "expense"
     Environment = "dev"
     Terraform = "true"
-    Component = "backend"
+    Component = "acm"
   }
 }
 
 variable "zone_name" {
   default = "balkriishna.online"
+}
+
+variable "zone_id" {
+  default = "Z01504843BMRSWVNPZ1S0"
 }
