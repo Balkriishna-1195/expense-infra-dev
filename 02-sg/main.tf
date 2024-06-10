@@ -220,7 +220,7 @@ resource "aws_security_group_rule" "bastion_public" {
 #   from_port         = 22
 #   to_port           = 22
 #   protocol          = "tcp"
-#   source_security_group_id = module.frontend.sg_id # source is where you are getting traffic from
+#   cidr_blocks = ["0.0.0.0/0"] 
 #   security_group_id = module.frontend.sg_id
 # }
 
